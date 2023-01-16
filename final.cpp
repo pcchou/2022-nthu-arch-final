@@ -52,7 +52,7 @@ map<string, int> parse_params(string path) {
 
 void print_params(ostream &out, map<string, int> &params) {
     out << "Address bits: " << params[keys[0]] << endl;
-    out << "Number of sets: " << params[keys[2]] << endl;
+    out << "Cache sets: " << params[keys[2]] << endl;
     out << "Associativity: " << params[keys[3]] << endl;
     out << "Block size: " << params[keys[1]] << endl;
     out << endl;
